@@ -1,14 +1,6 @@
-import React, { Component } from 'react';
-import TempContainer from './widgets/temp/TempContainer';
+import React from 'react';
+import TempContainer from './widgets/TempContainer';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <TempContainer />
-      </div>
-    );
-  }
-}
+const App = () => <TempContainer />;
 
 export default App;
